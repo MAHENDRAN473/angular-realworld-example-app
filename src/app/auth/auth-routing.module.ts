@@ -18,6 +18,6 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModuledshmtd]
+  exports: [RouterModule]
 })
 export class AuthRoutingModule {}
